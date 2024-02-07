@@ -8,3 +8,8 @@ css2family=Chakra+Petch:wght@400;700&display=swap`);
   --botao-inativo: rgba(58, 55, 94, 0.5);
   --texto-fundo: rgba(58, 55, 94, 0.3);
 }
+body {
+  background-color: var(--cor-de-fundo):
+  color:var(--branco);
+  font-family `Chakra Petch`,sans-serif;
+}
