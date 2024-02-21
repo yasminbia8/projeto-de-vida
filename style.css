@@ -30,3 +30,11 @@ border-bottom: 4px solid var(--botao-ativo);
 border-left: 2px solid var(--botao-ativo);
 border-right: 2px solid var(--botao-ativo);
 border-top:top nome;
+.botoes {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .botoes {
+    display: flex;
+  }
+}
