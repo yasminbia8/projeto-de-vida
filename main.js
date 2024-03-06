@@ -3,10 +3,9 @@ const texttoros = document. querSelectorAll(".aba-conteudo");
 for(let i=0;i <botoes.length;i++){
   botoes[i].onclick = function(){
     
- for(let j=0;j<botoes.length;j++){
+ for (let j=0;j<botoes.length;j++){
    botoes[j].classlist.remove("ativo");
- }
-
+texto[j].classList.remove("ativo");
     botoes[i].classlist.add("ativo");
   }
 }
