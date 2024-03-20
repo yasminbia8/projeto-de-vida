@@ -42,8 +42,12 @@ if (tempoFinal > 0){
 }
 
  function  atualizaCronometro(){
+   document.getElementById("dias").calculaTempo(tempo[0])[0];
+   document.getElementById("horas0")calculaTempo(tempo[0])[1];
+    document.getElementByIddocument("min")calculaTempo(tempo[0])[2];
+   document. getElementByIddocument("seg0")calculaTempo(tempo[0])[3];
    for (let i=0; i<contadores.length;i++{
-      contadores[i].textContent = calculaTempo(tempo[i];
+      //contadores[i].textContent = calculaTempo(tempos[i]);
    }
  }
 
