@@ -53,3 +53,4 @@ atualizaCronometro();
 }
 
 comecaCronometro();
+//comeCronometro();
