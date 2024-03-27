@@ -42,17 +42,16 @@ if (tempoFinal > 0){
 }
 
  function  atualizaCronometro(){
-   document.getElementById("dias").calculaTempo(tempo[0])[0];
-   document.getElementById("horas0")calculaTempo(tempo[0])[1];
-    document.getElementByIddocument("min")calculaTempo(tempo[0])[2];
-   document. getElementByIddocument("seg0")calculaTempo(tempo[0])[3];
-   for (let i=0; i<contadores.length;i++{
-      //contadores[i].textContent = calculaTempo(tempos[i]);
+   document.getElementById("dias"+i).calculaTempo(tempo[1])[0];
+   document.getElementById("horas"+i)calculaTempo(tempo[1])[1];
+    document.getElementByIddocument("min"+i)calculaTempo(tempo[1])[2];
+   document. getElementByIddocument("seg"+i)calculaTempo(tempo[1])[3];
    }
  }
 
 function comecaCronometro(){
 atualizaCronometro();
+  atualizaCronometro();
   setInterval(atualizaCronometro,1000);
 }
 
