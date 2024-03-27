@@ -105,10 +105,21 @@ border-radius: 0 0 40px;
   color: var(--verde);
   font-size: 20px;
   margin 0;
-
+  }
 
  .contador-digito-texto{
 color: var(--verde);
         font-size: 20px;
         margin: 0;
         
+ }
+
+    @media screen and (mi-width: 76ppx) {
+.botoes {
+display: flex;
+}
+
+      .botao: first-child {
+        border-radius:> 0 40px 0 0;
+      }
+    }
